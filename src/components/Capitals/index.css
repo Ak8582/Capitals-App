@@ -1,0 +1,71 @@
+.capitals-app-bg-container {
+  background-color: #93c5fd;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 0.8rem;
+  font-family: 'Roboto';
+}
+
+.content-header {
+  color: #000000;
+  font-size: 2rem;
+}
+
+.capital-selection-container {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  width: 100%;
+}
+
+.capital-selection-dropdown {
+  border: 0.1rem solid #cbd2d9;
+  border-radius: 0.4rem;
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+  outline: none;
+  cursor: pointer;
+  flex-grow: 1;
+}
+
+.capital-selection-dropdown-option,
+.capital-selection-question {
+  color: #323f4b;
+}
+
+.capital-selection-dropdown,
+.capital-selection-dropdown-option {
+  font-size: 1rem;
+}
+
+.capital-selection-question {
+  font-size: 0.9rem;
+}
+
+.capital-selection-dropdown,
+.capital-selection-dropdown-option,
+.capital-selection-question,
+.country-text {
+  font-weight: 550;
+}
+
+.capital-selection-dropdown,
+.country-text {
+  color: #1e293b !important;
+}
+
+.country-text {
+  font-size: 1.5rem;
+}
